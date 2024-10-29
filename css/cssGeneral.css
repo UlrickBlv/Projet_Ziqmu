@@ -1,0 +1,70 @@
+#body{
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;        
+}
+
+/* Dans la vue v_accueil.php */
+#accueil {
+    font-family: tahoma;
+    font-size: 40px;;
+}
+
+/* Dans la vue v_entete.php */
+#menu {  
+    height: auto;
+    display: block;
+    text-align: center;
+    height: 300px;
+    width: auto;
+}
+#menu img {
+    width: 40%;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu a {
+    font-family: tahoma;
+}
+
+#contenu{
+    font-family: tahoma;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Dans la vue v_inscprition.php */
+#reservation{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 25px;
+    font-family: tahoma;
+    border: 1px solid black;
+    border-spacing:0px;
+    border-collapse:collapse;
+}
+#caption{
+    font-style: italic;
+    text-decoration: blink;
+}
+
+/* Dans la vue v_formulaire.php */
+#formulaire{
+    background-image: url("../images/conservatoire_1.jpg");
+    background-size: contain;
+    background-position:center center;
+    width: 500px;
+    font-family: tahoma;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-spacing:0px;
+    border-collapse:collapse;
+}
+
+#titre{
+    color: #c04000;
+}
